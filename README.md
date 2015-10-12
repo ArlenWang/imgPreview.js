@@ -1,2 +1,2 @@
 # imgPreview.js
-local img preview
+本地图片预览【全兼容】
