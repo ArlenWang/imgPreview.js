@@ -1,0 +1,21 @@
+.com-img-preview .vertical-wrapper {
+    display: table;
+    width: 500px;
+    height: 400px;
+    background-color: #eeeeee;
+}
+
+.com-img-preview .vertical-wrapper .vertical {
+    background-color: #dddddd;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.com-img-preview .vertical-wrapper .vertical img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.com-img-preview .vertical-wrapper.center .vertical {
+    text-align: center;
+}

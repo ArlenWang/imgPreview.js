@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./src/imgPreview.css">
+</head>
+
+<body>
+    <div class="com-img-preview">
+        <input type="file" value="图片上传" accept="image/*">
+        <div class="preview vertical-wrapper center">
+            <div class="vertical">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./libs/jquery.js"></script>
+    <script type="text/javascript" src="./src/imgPreview.js"></script>
+    <script type="text/javascript">
+    $('.com-img-preview').ImgPreview();
+    </script>
+</body>
+
+</html>
